@@ -1,9 +1,10 @@
 from transformers import pipeline
 import gradio as gr
+import streamlit as st
 
 model = pipeline("summarization")
 
-def predic(prompt):
+def predict(prompt):
     summary = model(prompt)[0]["summary_text"]
     return summary
 
