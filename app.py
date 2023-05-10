@@ -1,6 +1,5 @@
 from transformers import pipeline
 import gradio as gr
-import streamlit as st
 
 model = pipeline("summarization")
 
