@@ -1,7 +1,6 @@
-# hugging-face-demo2
 ---
 title: Demo
-emoji:🌓
+emoji: 🌓
 colorFrom: purple
 colorTo: purple
 sdk: gradio
